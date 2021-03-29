@@ -11,8 +11,14 @@
 		A4F913A42612201C006B82C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F913A32612201C006B82C3 /* ContentView.swift */; };
 		A4F913A62612201F006B82C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F913A52612201F006B82C3 /* Assets.xcassets */; };
 		A4F913A92612201F006B82C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F913A82612201F006B82C3 /* Preview Assets.xcassets */; };
-		A4F913B42612201F006B82C3 /* WidgetCenterFirstDraftExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F913B32612201F006B82C3 /* WidgetCenterFirstDraftExampleTests.swift */; };
-		A4F913BF2612201F006B82C3 /* WidgetCenterFirstDraftExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F913BE2612201F006B82C3 /* WidgetCenterFirstDraftExampleUITests.swift */; };
+		A4F913D6261220B1006B82C3 /* EventTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F913D5261220B1006B82C3 /* EventTracking.swift */; };
+		A4F913DB261220CE006B82C3 /* WidgetCenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F913DA261220CE006B82C3 /* WidgetCenterProtocol.swift */; };
+		A4F913E0261220EC006B82C3 /* WidgetInfoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F913DF261220EC006B82C3 /* WidgetInfoProtocol.swift */; };
+		A4F913E526122108006B82C3 /* WidgetCenterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F913E426122108006B82C3 /* WidgetCenterService.swift */; };
+		A4F913EA2612213E006B82C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F913E92612213E006B82C3 /* AppDelegate.swift */; };
+		A4F913F02612222B006B82C3 /* WidgetServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F913EF2612222B006B82C3 /* WidgetServiceTests.swift */; };
+		A4F913F8261224C5006B82C3 /* WidgetCenterSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F913F7261224C5006B82C3 /* WidgetCenterSpy.swift */; };
+		A4F913FD26122559006B82C3 /* EventTrackingSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F913FC26122559006B82C3 /* EventTrackingSpy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +46,16 @@
 		A4F913A82612201F006B82C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A4F913AA2612201F006B82C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4F913AF2612201F006B82C3 /* WidgetCenterFirstDraftExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WidgetCenterFirstDraftExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4F913B32612201F006B82C3 /* WidgetCenterFirstDraftExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetCenterFirstDraftExampleTests.swift; sourceTree = "<group>"; };
 		A4F913B52612201F006B82C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4F913BA2612201F006B82C3 /* WidgetCenterFirstDraftExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WidgetCenterFirstDraftExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4F913BE2612201F006B82C3 /* WidgetCenterFirstDraftExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetCenterFirstDraftExampleUITests.swift; sourceTree = "<group>"; };
-		A4F913C02612201F006B82C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F913D5261220B1006B82C3 /* EventTracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTracking.swift; sourceTree = "<group>"; };
+		A4F913DA261220CE006B82C3 /* WidgetCenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetCenterProtocol.swift; sourceTree = "<group>"; };
+		A4F913DF261220EC006B82C3 /* WidgetInfoProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetInfoProtocol.swift; sourceTree = "<group>"; };
+		A4F913E426122108006B82C3 /* WidgetCenterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetCenterService.swift; sourceTree = "<group>"; };
+		A4F913E92612213E006B82C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4F913EF2612222B006B82C3 /* WidgetServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetServiceTests.swift; sourceTree = "<group>"; };
+		A4F913F7261224C5006B82C3 /* WidgetCenterSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetCenterSpy.swift; sourceTree = "<group>"; };
+		A4F913FC26122559006B82C3 /* EventTrackingSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTrackingSpy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +88,6 @@
 			children = (
 				A4F913A02612201C006B82C3 /* WidgetCenterFirstDraftExample */,
 				A4F913B22612201F006B82C3 /* WidgetCenterFirstDraftExampleTests */,
-				A4F913BD2612201F006B82C3 /* WidgetCenterFirstDraftExampleUITests */,
 				A4F9139F2612201C006B82C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,11 +105,14 @@
 		A4F913A02612201C006B82C3 /* WidgetCenterFirstDraftExample */ = {
 			isa = PBXGroup;
 			children = (
+				A4F913EE261221EE006B82C3 /* Widget */,
 				A4F913A12612201C006B82C3 /* WidgetCenterFirstDraftExampleApp.swift */,
 				A4F913A32612201C006B82C3 /* ContentView.swift */,
 				A4F913A52612201F006B82C3 /* Assets.xcassets */,
 				A4F913AA2612201F006B82C3 /* Info.plist */,
 				A4F913A72612201F006B82C3 /* Preview Content */,
+				A4F913D5261220B1006B82C3 /* EventTracking.swift */,
+				A4F913E92612213E006B82C3 /* AppDelegate.swift */,
 			);
 			path = WidgetCenterFirstDraftExample;
 			sourceTree = "<group>";
@@ -115,19 +128,22 @@
 		A4F913B22612201F006B82C3 /* WidgetCenterFirstDraftExampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				A4F913B32612201F006B82C3 /* WidgetCenterFirstDraftExampleTests.swift */,
 				A4F913B52612201F006B82C3 /* Info.plist */,
+				A4F913EF2612222B006B82C3 /* WidgetServiceTests.swift */,
+				A4F913F7261224C5006B82C3 /* WidgetCenterSpy.swift */,
+				A4F913FC26122559006B82C3 /* EventTrackingSpy.swift */,
 			);
 			path = WidgetCenterFirstDraftExampleTests;
 			sourceTree = "<group>";
 		};
-		A4F913BD2612201F006B82C3 /* WidgetCenterFirstDraftExampleUITests */ = {
+		A4F913EE261221EE006B82C3 /* Widget */ = {
 			isa = PBXGroup;
 			children = (
-				A4F913BE2612201F006B82C3 /* WidgetCenterFirstDraftExampleUITests.swift */,
-				A4F913C02612201F006B82C3 /* Info.plist */,
+				A4F913DA261220CE006B82C3 /* WidgetCenterProtocol.swift */,
+				A4F913DF261220EC006B82C3 /* WidgetInfoProtocol.swift */,
+				A4F913E426122108006B82C3 /* WidgetCenterService.swift */,
 			);
-			path = WidgetCenterFirstDraftExampleUITests;
+			path = Widget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +216,7 @@
 					};
 					A4F913AE2612201F006B82C3 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 						TestTargetID = A4F9139D2612201C006B82C3;
 					};
 					A4F913B92612201F006B82C3 = {
@@ -259,8 +276,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4F913DB261220CE006B82C3 /* WidgetCenterProtocol.swift in Sources */,
+				A4F913E0261220EC006B82C3 /* WidgetInfoProtocol.swift in Sources */,
+				A4F913E526122108006B82C3 /* WidgetCenterService.swift in Sources */,
 				A4F913A42612201C006B82C3 /* ContentView.swift in Sources */,
+				A4F913EA2612213E006B82C3 /* AppDelegate.swift in Sources */,
 				A4F913A22612201C006B82C3 /* WidgetCenterFirstDraftExampleApp.swift in Sources */,
+				A4F913D6261220B1006B82C3 /* EventTracking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +290,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4F913B42612201F006B82C3 /* WidgetCenterFirstDraftExampleTests.swift in Sources */,
+				A4F913FD26122559006B82C3 /* EventTrackingSpy.swift in Sources */,
+				A4F913F02612222B006B82C3 /* WidgetServiceTests.swift in Sources */,
+				A4F913F8261224C5006B82C3 /* WidgetCenterSpy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +300,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4F913BF2612201F006B82C3 /* WidgetCenterFirstDraftExampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +484,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SAR2G9PZXH;
 				INFOPLIST_FILE = WidgetCenterFirstDraftExampleTests/Info.plist;
@@ -472,6 +496,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cardenas.fernando.WidgetCenterFirstDraftExampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WidgetCenterFirstDraftExample.app/WidgetCenterFirstDraftExample";
@@ -483,6 +508,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SAR2G9PZXH;
 				INFOPLIST_FILE = WidgetCenterFirstDraftExampleTests/Info.plist;
