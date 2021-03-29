@@ -10,7 +10,7 @@ import WidgetKit
 
 class WidgetCenterSpy: WidgetCenterProtocol {
     
-    typealias ConfigResult = Result<[WidgetInfo], Error>
+    typealias ConfigResult = Result<[MyWidgetInfo], Error>
     typealias Completion = (ConfigResult) -> Void
     var configCompletions = [Completion]()
     
@@ -18,7 +18,7 @@ class WidgetCenterSpy: WidgetCenterProtocol {
         configCompletions.append(completion)
     }
     
-    func complete(withInfos infos: [WidgetInfo], at index: Int = 0) {
+    func complete(withInfos infos: [MyWidgetInfo], at index: Int = 0) {
         configCompletions[index](.success(infos))
     }
     
@@ -27,6 +27,6 @@ class WidgetCenterSpy: WidgetCenterProtocol {
     }
 }
 
-struct WidgetInfo: WidgetInfoProtocol {
+struct MyWidgetInfo: WidgetInfoProtocol {
     let family: WidgetFamily
 }

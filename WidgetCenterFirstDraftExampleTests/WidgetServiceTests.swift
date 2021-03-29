@@ -22,7 +22,7 @@ class WidgetServiceTests: XCTestCase {
         
         sut.trackInstalledWidgetInfo()
         
-        let infos: [WidgetInfo] = [.init(family: .systemSmall),
+        let infos: [MyWidgetInfo] = [.init(family: .systemSmall),
                                      .init(family: .systemMedium),
                                      .init(family: .systemLarge)]
         center.complete(withInfos: infos)
@@ -43,7 +43,7 @@ class WidgetServiceTests: XCTestCase {
         sut.trackInstalledWidgetInfo()
         sut.trackInstalledWidgetInfo()
 
-        let infos: [WidgetInfo] = [.init(family: .systemSmall),
+        let infos: [MyWidgetInfo] = [.init(family: .systemSmall),
                                      .init(family: .systemMedium),
                                      .init(family: .systemLarge)]
         center.complete(withInfos: infos, at: 0)
@@ -70,7 +70,7 @@ class WidgetServiceTests: XCTestCase {
 
         sut.trackInstalledWidgetInfo()
 
-        let infos: [WidgetInfo] = []
+        let infos: [MyWidgetInfo] = []
         center.complete(withInfos: infos)
 
         XCTAssertEqual(tracker.events,
